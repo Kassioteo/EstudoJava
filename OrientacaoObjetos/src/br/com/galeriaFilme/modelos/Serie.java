@@ -1,22 +1,22 @@
 package OrientacaoObjetos.src.br.com.galeriaFilme.modelos;
 
 public class Serie extends Titulo {
-    private String diretor;
-    private Boolean cinema;
+    private int quantidadeEpisodio;
+    private int duracaoEpisodio;
 
-    public void setDiretor(String diretor) {
-        this.diretor = diretor;
+    public void setDuracaoEpisodio(int duracaoEpisodio) {
+        this.duracaoEpisodio = duracaoEpisodio;
     }
 
-    public String getDiretor() {
-        return diretor;
+    public int getDuracaoEpisodio() {
+        return duracaoEpisodio;
     }
 
-    public void setCinema(Boolean cinema) {
-        this.cinema = cinema;
+    public void setQuantidadeEpisodio(int quantidadeEpisodio) {
+        this.quantidadeEpisodio = quantidadeEpisodio;
     }
 
-    public Boolean getCinema() {
-        return cinema;
+    public int getQuantidadeEpisodio() {
+        return quantidadeEpisodio;
     }
 }
