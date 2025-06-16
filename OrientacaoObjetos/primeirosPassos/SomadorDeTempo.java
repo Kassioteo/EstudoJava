@@ -1,4 +1,4 @@
-package OrientacaoObjetos;
+package OrientacaoObjetos.primeirosPassos;
 
 public class SomadorDeTempo {
     private int tempoTotal;
