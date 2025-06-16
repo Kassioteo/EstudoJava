@@ -1,12 +1,16 @@
 package OrientacaoObjetos.src.br.com.galeriaFilme.modelos;
 
+
+import OrientacaoObjetos.src.br.com.galeriaFilme.ferramentas.Classificao;
+import OrientacaoObjetos.src.br.com.galeriaFilme.ferramentas.Genero;
+
 public class Titulo {
     private String nome;
-    private String genero;
+    private Genero genero;
     private int anoLancamento;
     private String sinopse;
     private int duracao;
-    private int classificao;
+    private Classificao classificao;
 
     public void setNome(String nome) {
         this.nome = nome;
@@ -16,11 +20,11 @@ public class Titulo {
         return nome;
     }
 
-    public void setGenero(String genero) {
+    public void setGenero(Genero genero) {
         this.genero = genero;
     }
 
-    public String getGenero() {
+    public Genero getGenero() {
         return genero;
     }
 
@@ -48,11 +52,11 @@ public class Titulo {
         return duracao;
     }
 
-    public void setClassificao(int classificao) {
+    public void setClassificao(Classificao classificao) {
         this.classificao = classificao;
     }
 
-    public int getClassificao() {
+    public Classificao getClassificao() {
         return classificao;
     }
 }
